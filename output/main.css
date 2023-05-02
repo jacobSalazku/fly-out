@@ -1,0 +1,31 @@
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  background-color: lightcyan;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.875rem 0.625rem;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+ul, li, a {
+  font-size: 35px;
+  font-weight: 400;
+  list-style-type: none;
+  margin: 1rem 1rem;
+}
+
+li {
+  cursor: pointer;
+}
